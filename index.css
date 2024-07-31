@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(224, 222, 222);
+}
+.headercontainer {
+    background-color:black;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.headerleft{
+    width: 20%;
+    display: flex
+}
+.headerleft .content div{
+    display: flex;
+}
+.headerleft .logo{
+    width: 100px;
+}
+.headerleft .logo .content{
+    width: 100px;
+}
+.headmiddle{
+    width: 50%;
+}
+.headmiddle main {
+    width: 100%;
+    background-color: white;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 10px;
+    position: relative;
+}
+.headmiddle main input {
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 50px;
+
+}
+.headmiddle main .search{
+    background-color: orange;
+    height:100% ;
+    width: 30px;
+    position: absolute;
+    padding: 4px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.start{
+    position: relative;
+    top: -180px;
+    z-index: 1;
+    
+}
+
+.headerright{
+    display: flex;
+}
+ .headleg{
+    display: flex;
+    padding-left: 10px;
+}
+.blessing{
+    color: white;
+    width: 80px;
+}
+.neckcontainer{
+    background-color:grey;
+    display: flex;
+    color: white;
+    padding: 10px;
+}
+.swallow{
+    display: flex;
+}
+.swallow p{
+padding-left: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    z-index: 2;
+    top: -200px;
+    
+
+  }
+.imgsmall{
+    background-color: white;
+    width:350px;
+    height:400px ;
+    padding: 10px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    
+}
+.start{
+    display: flex;
+    justify-content: center;
+}
+
+.imagesmallimg span img{
+    width: 130px;
+    margin:10px;
+}
+
+.imagesmallimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.giff{
+    font-size: medium;
+    padding-right: 40px;
+    margin: 50px;
+}
+.santa{
+    font-size: small;
+    display: flex;
+    align-items: center;
+ 
+}
+.santa p{
+    background-color: brown;
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.santa small{
+    margin-left: 20px;
+    font-size: 13px;
+    color: brown;
+}
+.swipe3{
+    margin-top: 20px;
+    padding: 0px 50px;
+}
+.swiper3 .swiper-slide-mypic{ 
+    width: 100%;
+    height: 45vh;
+    background-color: white;
+}
+.swiper-slide-mypic img{
+    width: 16%;
+    height: 100%;
+    padding: 10px 40px;
+}
+    
+
+
+ 
